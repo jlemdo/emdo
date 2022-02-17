@@ -1,6 +1,9 @@
-on: 
+on:
+  
   push:
-    branches: ftp
+
+    branches:
+
       - master
 
 name: 🚀 Deploy website on push
