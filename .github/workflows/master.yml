@@ -21,5 +21,5 @@ jobs:
         server: 1a.ncomputers.org
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /web
+        server-dir: /web/
         
