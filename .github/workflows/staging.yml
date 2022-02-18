@@ -1,7 +1,10 @@
-on: 
+on:
+  
   push:
-    branches: ftp
-      - staging
+
+    branches:
+
+      - master      
 
 name: 🚀 Deploy website on push
 jobs:
