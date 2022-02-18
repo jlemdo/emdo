@@ -16,7 +16,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
         server: 1a.ncomputers.org
-        username: ${{ secrets.ftp_username }}
+        username: ${{ secrets.ftp_usernameStaging }}
         password: ${{ secrets.ftp_password }}
-        serverdir: /web
+        serverdir: /web/
         
