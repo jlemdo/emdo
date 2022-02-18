@@ -1,7 +1,10 @@
-on: 
+on:
+  
   push:
-    branches: ftp
-      - staging
+
+    branches:
+
+      - staging      
 
 name: 🚀 Deploy website on push
 jobs:
@@ -18,5 +21,5 @@ jobs:
         server: 1a.ncomputers.org
         username: ${{ secrets.ftp_usernameStaging }}
         password: ${{ secrets.ftp_password }}
-        serverdir: /web/
+        server-dir: /web/
         

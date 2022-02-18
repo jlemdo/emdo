@@ -472,34 +472,34 @@
                                 <h3 class="contact-subtitle">Escribenos un correo!</h3>
                                 <span class="contact-description">
                                     <i class="lni lni-user contact-icon"></i>
-                                    info@emdo.onlinee
+                                    info@emdo.online
                                 </span>
                             </div> 
                         </div>
                     </div>
                     <!-- contact form -->
-                    <form action="" class="contact-form padd-15">
+                    <form id="contacto" action="mail.php"class="contact-form padd-15" method="POST">
                         <div class="contact-inputs">
                             <!-- contact content -->
                             <div class="contact-content">
-                                <input type="email" class="contact-input">
+                                <input type="email" class="contact-input" name="email">
                                 <label for="" class="contact-label">E-mail</label>
                                 <span></span>
                             </div>
                             <!-- contact content -->
                             <div class="contact-content">
-                                <input type="email" class="contact-input">
+                                <input type="text" class="contact-input" name="contacto">
                                 <label for="" class="contact-label">Contacto</label>
                                 <span></span>
                             </div>
                         <!-- contact content -->
                         <div class="contact-content contact-area">
-                            <textarea name="" id="" cols="30" rows="10" class="contact-input"></textarea>
+                            <textarea name="" id="" cols="30" rows="10" class="contact-input" name="mensaje"></textarea>
                             <label for="" class="contact-label">Mensaje</label>
                             <span></span>
                         </div>
                     </div>
-                    <a href="#" class="btn btn-default">Enviar Mensaje</a>
+                    <button type="submit" class="btn btn-default">Enviar Mensaje</button>
                     </form>
                 </div>
             </div>
