@@ -4,7 +4,7 @@ const navClose = document.getElementById("nav-close");
 const form = document.querySelector("#form")
 
 
-form.addEventListener("submit", formulario);
+
 /*=============== MOSTRAR MENU ===============*/
 /* Validamo si la constante existe */
 if(navToggle)
@@ -278,11 +278,3 @@ Bg3.addEventListener('click', () => {
 
 
 
-/*===== FORM =====*/
-
-function formulario(e) {
-    e.preventDefault();
-    const formulario = new FormData(this)
-    console.log(form.get('contacto'))
-
-}
